@@ -1,3 +1,4 @@
 youtube-dlc
 streamlink
-folderclone
+yt-dlp
+youtube-dl
