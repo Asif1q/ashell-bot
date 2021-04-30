@@ -9,19 +9,21 @@
     "terminal",
     "botgram"
   ],
+  "scripts": {
+    "start": "node server.js"
+  },
   "description": "Shellrunner Telegram bot",
-  "homepage": "https://github.com/denomparkour/shell-bot",
+  "homepage": "https://github.com/botgram/shell-bot",
   "dependencies": {
     "botgram": "^2.2",
     "escape-html": "1",
     "mime": "1",
     "node-pty": "^0.9.0",
     "node-termios": "0.0.13",
-    "terminal.js": "1.0.9",
-    "node": "12.13.0"
+    "terminal.js": "1.0.9"
   },
   "optionalDependencies": {
-    "https-proxy-agent": "^2.2.1",
+    "https-proxy-agent": "^5.0.0",
     "socks-proxy-agent": "^4.0.1"
   },
   "bugs": {
@@ -29,7 +31,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/denomparkour/shell-bot.git"
+    "url": "https://github.com/botgram/shell-bot.git"
   },
   "license": "MIT",
   "author": "Alba Mendez <me@alba.sh> (https://alba.sh)"
